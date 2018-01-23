@@ -1,5 +1,5 @@
 # artEditor
-artEditor是一款基于jQuery的移动端富文本编辑器，支持插入图片，后续完善其他功能。新增图片上传之前压缩功能
+artEditor是一款基于jQuery/Zepto的移动端富文本编辑器，支持插入图片，后续完善其他功能。新增图片上传之前压缩功能
 [demo](http://baixuexiyang.github.io/artEditor/)，为了更好的效果请将浏览器设置为手机模式。   
 使用交流：[交流](https://gitter.im/artEditor/Lobby)    
    
@@ -117,9 +117,12 @@ $('#content').artEditor({
 2017-06-02   
  + 解决chrome换行额外增加div   
 2017-12-25   
- + 增加beforeUpload回调   
-      
-   
+ + 增加beforeUpload回调
+
+
+2018-01-23
+ + 兼容Zepto
+ + 加入上传图片前base64的处理示例代码（即截取格式，此操作也可以让后端直接处理） 
    
 ### 项目文件说明
 |- dist 项目打包结果文件夹
