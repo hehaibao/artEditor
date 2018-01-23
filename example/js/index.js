@@ -11,6 +11,10 @@ $(function () {
         placeholader: '请输入文章正文内容',
         validHtml: ["<br/>"],
         formInputId: 'target',
+        beforeUpload: function(code) {
+            //上传前, 处理base64格式
+            // return code.split(',')[1];
+        },
         uploadSuccess: function (res) {
             // 这里是处理返回数据业务逻辑的地方
             // `res`为服务器返回`status==200`的`response`

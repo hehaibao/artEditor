@@ -7,7 +7,7 @@
     "example": "例子文件夹"
   },
   "scripts": {
-    "start":"gulp watch"
+    "start": "gulp watch"
   },
   "repository": {
     "type": "git",
